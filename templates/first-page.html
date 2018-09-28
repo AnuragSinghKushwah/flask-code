@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+	<title></title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+
+		.lft{
+			    margin: 3px;
+			    margin-left: 160px;
+			    margin-top: 21px;
+
+			    }
+
+        input{
+            color: #333 !important;
+        }
+		.ss{
+
+            align-items:center;
+            width: 50%;
+            margin-left: 350px;
+            margin-top: 200px;
+            align-items: center;
+            padding: 70px 69px 23px 30px;
+            position: relative;
+            padding-top: 17px;
+            margin-bottom: 200px;
+
+		}
+		.button {
+    background-color: #008CBA; /* blue */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {font-size: 10px;}
+body{
+color:white;}
+
+
+
+	</style>
+</head>
+<body style="background-image:url(http://backgroundcheckall.com/wp-content/uploads/2017/12/login-page-background-images-9.jpg);">
+
+			<div class="ss">
+	 		<div class="row" >
+
+			<form  method="POST" action="login">
+
+                <label class="lft">Username</label><br>
+
+				<input class="lft"  type="text" id="name" name="userid" placeholder="UserName" required size="30">
+				<label class="lft" >Password</label><br>
+				<input class="lft"  type="password" id="password" name="password" placeholder="Password" required size="30"><br><br>
+
+    <div style="margin-left: 20px ;display:inline;    padding-left: 137px;">
+      <input class="with-gap" name="slecttyp" type="radio" required value="SuperAdmin" />
+      <span>Super Admin  </span>
+    
+  
+      <input class="with-gap" name="slecttyp" type="radio" required  value="Admin" />
+      <span>Admin</span>
+   
+   
+      <input class="with-gap" name="slecttyp" type="radio" required  value="Employe"/>
+      <span>Employee</span>
+
+      <input type="submit" class="button button1"   name="Submit Data"/>
+                </div>
+
+            </form>
+ 
+</div>
+            </div>
+
+
+</body>
+</html>
